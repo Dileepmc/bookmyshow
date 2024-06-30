@@ -1,0 +1,16 @@
+.ShowsList{
+    display: flex;
+    flex-direction: row;
+    grid-gap: 1rem;
+    list-style: none;
+    margin-top: 2rem;
+}
+.Show{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: rgb(140, 221, 137);
+    border:rgb(51, 253, 129)1px solid;
+}

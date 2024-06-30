@@ -1,0 +1,23 @@
+.Seat{
+    width: 28px;
+    height: 28px;
+    font-size: 12px;
+    color: grey ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(52, 175, 52);
+    border-radius: 4px;
+    transition: all 0.2s ease-in ;
+}
+.Seat:hover{
+    background-color:rgb(52, 175, 52);
+    color: white;
+    cursor: pointer;
+}
+.Selected{
+    background-color:rgb(52, 175, 52);
+    color: white;
+    cursor: pointer;
+}
